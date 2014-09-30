@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>populations.js</title>
+        <link rel="stylesheet" href="css/vendor-3293abbf.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">google.load("visualization", "1", {packages:["corechart"]});</script>
+        <script src="js/vendor-ce7bec6c.js"></script>
+        <script src="js/app.js"></script>
+    <!-- model files here-->
+        <script src="species/varied-plants-2525c640.js"></script>
+        <script src="environments/water-field-efee0465.js"></script>
+        <script src="models/field-water-one-plant-variation-20b8c33e.js"></script>
+    <style type="text/css">
+      #money {
+        border: 3px solid black;
+        padding: 2px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 400px;
+      }
+      
+      #money-value {
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="environment"></div>
+    <div id="money">Money remaining:<br><span id="money-value">$20</span></div>
+  </body>
+</html>
